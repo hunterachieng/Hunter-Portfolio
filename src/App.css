@@ -1,3 +1,6 @@
+/* .App{
+  background-color:black;
+} */
 .home{
   background-color:black;
   height:650px;
@@ -14,7 +17,7 @@
   color:#FFD700;
   padding:20px 50px;
 }
-@media (max-width:890px){
+@media (min-width:600px) and (max-width:890px){
   .nav-list{
     margin-left:30%;
   }
@@ -23,14 +26,110 @@
     font-size:16px;
   }
 }
-.intro{
+@media (max-width:500px) {
+  /* .nav-bar{
+    display: none;
+  } */
+  .nav-list{
+    margin-left:2%;
+  }
+  .nav-list li{
+    padding:20px 10px;
+    font-size:16px;
+  }
+  .home{
+   
+    height:650px;
+    margin: 0px 0px;
+  }
+  
+}
+@media (min-width:510px) and (max-width:545px) {
+  .nav-list li{
+    padding:20px 20px;
+    font-size:16px;
+  }
+  .nav-list{
+    margin-left:2%;
+  }
+}
+@media (min-width:900px) and (max-width:1030px){
+  .nav-list li{
+    padding:20px 50px;
+    font-size:16px;
+  }
+  .nav-list{
+    margin-left:40%;
+  }
+}
+#mynav-nav{
+  display: none;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  padding-top: 60px;
+  background-color: #f3e8ac;
+
+}
+.nav-list1 li{
   color:#FFD700;
-  font-size:18px;
+  padding:8px 8px 8px 32px;
+  font-size: 20px;
+
+}
+.nav-list1 p{
+  color:#FFD700;
+  padding:8px 8px 8px 32px;
+  font-size: 20px;
+
+}
+.nav-list1 li:hover{
+  color:#f3e8ac;
+  
+}
+.nav-list1 p:hover{
+  color:#f3e8ac;  
+}
+.nav-list1{
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  display:block;  
+ }
+ .closebtn{
+   position: absolute;
+   top: 0;
+   right: 25px;
+   font-size: 25px;
+   margin-left: 50px;
+ }
+ @media screen and (max-height:450px){
+   #mynav-bar{padding-top: 15px;}
+   .nav-list1 li{font-size: 18px;}
+   
+ }
+ /* .image{
+   position: absolute;
+   left: 60%;
+   top: 20%;
+ } */
+ .image img{
+   height: 475px;
+   position: absolute;
+   left: 56%;
+   width: 38%;
+   top: 15%;
+ }
+ .intro{
+  color:#FFD700;
+  font-size:30px;
   margin-top:20%;
   margin-left:5%;
 }
 .intro .role{
-  font-size:20px;
+  font-size:31px;
   font-weight:bold;
 }
 hr{
@@ -39,7 +138,7 @@ hr{
     height:5%;
     margin-left:0%;
 }
-@media (max-width:650px){
+@media (min-width:500px) and (max-width:650px){
   .intro{
     font-size:16px;
     margin-top:25%;
@@ -47,6 +146,13 @@ hr{
   hr{
     width:30%;
     border:1px solid #FFD700;
+  }
+}
+
+@media (max-width:500px){
+  .intro{
+    font-size:12px;
+    margin-top:25%;
   }
 }
 .bio{
@@ -71,4 +177,66 @@ hr{
   border:transparent;
   border-radius:5px;
 }
+.skills{
+  position: absolute;
+  left: 70%;
+  top: 110%;
+}
+.skills li{
+  font-size: 18px;
+}
+.skill{
+ color: #FFD700;
+ padding-left: 17px;
+ font-size: 20px;
+}
+@media (max-width:890px){
+  .skills{
+    position: initial;  
+    margin-left: 2%;  
+  }
+  .skill{
+    padding-left: 0px;
+    font-size: 18px;
+   }
+   .skills li{
+    font-size: 16px;
+  }
+  .bio p{
+    font-size:16px;
+    margin-left:5%;
+    line-height:120%;
+  }
 
+}
+
+.Project{
+  margin-top: 10%;
+  background-color: black;
+  height: 600px;
+}
+.Project h2{
+  text-align:center;
+  color:#FFD700;
+  padding-top: 20px;
+  }
+.projects img{
+  height: 300px;
+   width: 25%;
+ 
+}
+.names{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -17%;
+}
+.names p{
+  color:#FFD700;
+
+
+}
+.projects{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}

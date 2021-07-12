@@ -13,8 +13,8 @@ I believe that we can make great change to the world through technology <br/>
 if used correctly.<br/>
 When I am not seated in front of a computer, I am busy learning new <br/>
 languages and searching for more ‘How Its Made’ shows.</p>
-<div>
-<p>Skills</p>
+<div className="skills">
+<p className="skill"><b>Skills</b></p>
 <ul>
 <li>JavaScript</li>
 <li>Kotlin</li>
@@ -25,6 +25,7 @@ languages and searching for more ‘How Its Made’ shows.</p>
 </ul>
 </div>
 <button>Download Resume</button>
+
         </div>
     )
 }
