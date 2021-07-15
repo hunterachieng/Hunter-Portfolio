@@ -3,7 +3,14 @@
 } */
 .home{
   background-color:black;
-  height:650px;
+   height:650px;
+}
+.pic{
+  background-image: url("./images/home-page.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  mix-blend-mode: multiply;
 }
 .nav-list{
   list-style-type:none;
@@ -38,8 +45,7 @@
     font-size:16px;
   }
   .home{
-   
-    height:650px;
+   height:650px;
     margin: 0px 0px;
   }
   

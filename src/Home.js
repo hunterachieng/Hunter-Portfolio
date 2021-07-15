@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 //components
 import Navbar from './Navbar';
 // import SideNav from './SideNav';
@@ -7,11 +8,12 @@ import Navbar from './Navbar';
 export default function Home(){
     return(
         <div className="home">
+           {/* <img src={pic} alt = "background"/> */}
          <Navbar/>
-         {/* <SideNav/> */}
+         
 
         <div className="intro">
-        <p> Hi, I am Synthia Hunter Achieng</p>
+        <p> Synthia Hunter Achieng</p>
        <hr/>
         <p className="role">Software Engineer</p>
         </div>
